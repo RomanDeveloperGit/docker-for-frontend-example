@@ -8,7 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV PORT 4200
+# Default port 
+ENV PORT 80
 
 EXPOSE ${PORT}
 
